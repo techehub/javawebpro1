@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-@WebServlet("/first")
+@WebServlet(urlPatterns= { "/first"}, name="first")
 public class MyFirstServlet extends HttpServlet{
 	
 	@Override
